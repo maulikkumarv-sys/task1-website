@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Contact.css">
+    <title>Document</title>
+</head>
+<body>
+
+      <h1 style="text-align: center;">Contact Us
+
+      </h1>
+   <form id="myform" method="post">
+   <input type="text" id="name" name="name" placeholder="Enter Name"> <br>
+   <input type="text" id="email" name="email" placeholder="Enter Email"> <br>
+   <input type="text" id="phone" name="phone" placeholder="Enter Phone"> <br>
+   <input type="text" id="message" name="name" placeholder="Enter message"> <br>
+   <input type="submit">
+
+
+
+   </form>
+
+   
+   <script>
+    document.getElementById("myform").addEventListener("submit",function(e){
+        const name=document.getElementById("name").value 
+        const email=document.getElementById("email").value
+        const phone=document.getElementById("phone").value
+        const message=document.getElementById("message").value
+
+
+        if(name===''){
+            alert("name must be neeeded")
+            e.preventDefault()
+        }else if(email==='' && !"email".includes('@')){
+            alert("email must be needed"|| '@ must be needed' )
+            e.preventDefault()
+        }else if(phone==='' ){
+            alert("phone is required")
+            e.preventDefault()
+
+        }else if(phone.length<10){
+            alert("number must be 10 digit")
+            e.preventDefault()
+
+        }else if(message.length<10){
+            alert("message must be 10 words needed")
+            e.preventDefault()
+
+        }
+
+    })
+   </script>
+</body>
+</html>

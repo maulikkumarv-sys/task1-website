@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Rooms.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="section1" id="rooms">
+
+
+        <h1>Our Rooms</h1>
+        <div class="imagesec">
+            
+
+        </div>
+
+
+    </div>
+
+
+
+    <script>
+        const images = [
+             'https://preview.colorlib.com/theme/suites/images/img_1.jpg',
+             'https://preview.colorlib.com/theme/suites/images/img_2.jpg',
+             'https://preview.colorlib.com/theme/suites/images/img_3.jpg',
+             'https://preview.colorlib.com/theme/suites/images/img_1.jpg',
+             'https://preview.colorlib.com/theme/suites/images/img_2.jpg',
+             'https://preview.colorlib.com/theme/suites/images/img_3.jpg'
+
+             
+        ]
+
+        const container = document.querySelector('.imagesec')
+
+        images.forEach(src => {
+            const img = document.createElement('img')
+            img.src = src;
+            container.appendChild(img);
+        })
+
+    </script>
+</body>
+</html>

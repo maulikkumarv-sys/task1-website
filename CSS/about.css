@@ -1,0 +1,21 @@
+
+    .about {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.aboutsec img {
+  width: 500px;
+}
+
+.aboutsec2 h3 {
+  line-height: 1.6; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.imagesec img{
+  width: 500px;
+  margin: 10px;
+}

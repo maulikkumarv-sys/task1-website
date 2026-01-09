@@ -1,0 +1,48 @@
+.slider {
+   position: relative;
+    width: 100%;
+    max-height: calc(100vh - 80px); 
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+
+.section2{
+    background-image: url("https://3.imimg.com/data3/XA/IG/IMOB-18919776/hotel.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    
+}
+

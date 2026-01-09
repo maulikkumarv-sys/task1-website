@@ -1,0 +1,20 @@
+
+.section1{
+    text-align: center;
+    
+}
+.imagesec img {
+    width: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.imagesec img{
+    
+  transition: transform 0.5s ease
+}
+
+.imagesec img:hover{
+    transform: scale(1.1);
+}

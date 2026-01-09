@@ -1,0 +1,200 @@
+  ul {
+      display: flex;
+      list-style: none;
+      gap: 40px;
+      margin: 0;
+      padding: 0;
+  }
+
+  ul a {
+      text-decoration: none;
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      color: #333;
+      transition: color 0.3s ease;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+  .header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      padding: 15px 40px;
+      background-color: white;
+      border-radius: 12px;
+  }
+
+  .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #333;
+  }
+
+  
+
+  
+
+
+
+  ul a:hover {
+      color:red;
+  }
+
+
+
+
+
+  .slider {
+      position: relative;
+    width: 100%;
+    max-height: calc(100vh - 80px); 
+    overflow: hidden;
+  }
+
+  .slider img {
+      width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .slider button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      border: none;
+      font-size: 20px;
+      padding: 10px;
+      cursor: pointer;
+  }
+
+  .prev {
+      left: 10px;
+  }
+
+  .next {
+      right: 10px;
+  }
+
+.footer {
+  background-color: #111;
+  color: #ddd;
+  padding: 50px 30px;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.footer h2 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: normal;
+  color: #bbb;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #bbb;
+  transition: color 0.3s ease;
+}
+
+.footer ul li:hover {
+  color: #00bcd4;
+}
+
+.section1,
+.sec2,
+.sec3,
+.sec4 {
+  max-width: 250px;
+}
+
+.sec4 {
+  font-size: 20px;
+  color: #bbb;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer ul {
+  display: block;
+}
+
+
+.section2{
+    background-image: url("https://images.pexels.com/photos/2245411/pexels-photo-2245411.jpeg?cs=srgb&dl=pexels-daniel-jurin-358265-2245411.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    
+}
+.features p{
+    text-align: center;
+    font-size: 40px;
+}
+.features {
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.features .div1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.div1 i{
+    font-size: 90px;
+    color: rgba(255, 0, 0, 0.267);
+}
+.div1 span p{
+    font-size: 30px;
+}
+
+.features .div2{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-top: 40px;
+}
+
+.div2 i{
+    font-size: 90px;
+    color: rgba(255, 0, 0, 0.267);
+}
+.div2 span p{
+    font-size: 30px;
+}

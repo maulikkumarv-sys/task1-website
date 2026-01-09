@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="CSS/about.css">
+
+  <title>About</title>
+
+  
+</head>
+
+<body>
+               
+<div class="about">
+              
+  <div class="aboutsec">
+    <img src="https://preview.colorlib.com/theme/suites/images/img_1.jpg">
+  </div>
+
+  <div class="aboutsec2">
+    <h1>About Us</h1> 
+    ________
+    <h3>
+         
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum cumque doloribus maxime itaque, tempora neque voluptas non minima dolor reprehenderit voluptatibus voluptates possimus. Incidunt enim cupiditate tenetur perferendis voluptatem repudiandae voluptates maxime porro doloremque quidem ratione sint a excepturi aspernatur, facilis consectetur consequatur, aut reiciendis blanditiis aliquid! Velit, impedit rerum.
+    </h3>
+  </div>
+</div>
+
+<div  class="imagesec">
+  <h1 style="text-align: center;">Our Staff</h1>
+
+</div>
+
+
+      <script>
+        const images=[
+          'https://poloandtweed.com/wp-content/uploads/2015/10/Staff-Crop.png',
+          'https://st.depositphotos.com/1010613/4407/i/450/depositphotos_44070631-stock-illustration-cheerful-excited-catering-staff-showing.jpg',
+          'https://media.istockphoto.com/id/461185451/photo/group-of-waiter-and-waitress.jpg?s=612x612&w=0&k=20&c=mk5qjyWt0NB7LPuDY2GovcH6FOPMWRRYXNU6x36gaxw=',
+          'https://st2.depositphotos.com/1010613/9170/i/450/depositphotos_91703604-stock-photo-restaurant-staff-standing-in-row.jpg',
+          'https://www.acservicessouthern.co.uk/wp-content/uploads/2017/08/Hospitality-staff.jpg',
+
+          'https://st3.depositphotos.com/1010613/15796/i/450/depositphotos_157968752-stock-photo-confident-restaurant-staff.jpg'
+
+          
+
+        ]
+
+        const imagecontainer=document.querySelector(".imagesec")
+        images.forEach(src=>{
+          const img=document.createElement("img")
+          img.src=src;
+          imagecontainer.appendChild(img)
+        })
+      </script>
+      
+</body>
+</html>
